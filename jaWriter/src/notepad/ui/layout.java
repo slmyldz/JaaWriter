@@ -94,7 +94,7 @@ public class layout extends JFrame {
     			System.out.println("dosya seçme ="+String.valueOf(jfc.getSelectedFile()));
     			String yazi= methods.openfile(dosyayolu);
     			textarea.setText(yazi);
-    			bilgi.setText("");
+    			bilgi.setText("Dosya baþarýyla açýldý");
     		}
     	});
 		
@@ -128,9 +128,6 @@ public class layout extends JFrame {
     				methods.filewrite(dosyayolu,textarea.getText());
     				bilgi.setText("Kayýt yapýldý");
     			}
-    		
-    		
-    			
     		}
     	});
 		
