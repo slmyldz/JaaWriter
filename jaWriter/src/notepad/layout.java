@@ -1,6 +1,6 @@
 
 	/**
-	 *Author Selim YILDIZ
+	 *Author slmyldz
 	 */
 package notepad;
 
